@@ -12,14 +12,14 @@ For this project we received access to 50 different datasets, out of these we se
 
 The dataset we selected is the Digital Video Games Dataset.  Using PySpark and Amason AWS RDS the results were the following:
 
-    - To start, a filter for the products that recieved more than 20 reviews was made, this to make the list more relevant as we are looking at reviews.
-    - Form this DataSet we filtered to see only the reviews marked as 'helpful_reviews' are more than the 50% of the reviews received.
-    - From this filtered DataSet we divided by reviews done by users with Vine and users without Vine, the results here were surprising as all the reviews provided were without Vine. 
-    - Results form the previous filter tell us that all 5 star reviews provided are from users without Vine. 
-        - 5-star Vine reiviews = 0
-        - 5-star non-Vine reviews = 631 votes
-        - % Vine 5-star reviews = 0
-        - % non-Vine 5-star reviews = 100%
+- To start, a filter for the products that recieved more than 20 reviews was made, this to make the list more relevant as we are looking at reviews.
+- Form this DataSet we filtered to see only the reviews marked as 'helpful_reviews' are more than the 50% of the reviews received.
+- From this filtered DataSet we divided by reviews done by users with Vine and users without Vine, the results here were surprising as all the reviews provided were without Vine. 
+- Results form the previous filter tell us that all 5 star reviews provided are from users without Vine. 
+    - 5-star Vine reiviews = 0
+    - 5-star non-Vine reviews = 631 votes
+    - % Vine 5-star reviews = 0
+    - % non-Vine 5-star reviews = 100%
 
 
 ## Summary: 
